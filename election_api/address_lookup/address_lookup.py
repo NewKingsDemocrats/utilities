@@ -11,8 +11,8 @@ import time
 import requests
 
 
-CSV_HEADERS = ['primary_country_code', 'primary_country', 'primary_state', 'primary_city', 'primary_county',
-               'primary_zip', 'primary_address1', 'primary_address2', 'primary_address3']
+CSV_HEADERS = ['nationbuilder_id', 'primary_country_code', 'primary_country', 'primary_state', 'primary_city', 'primary_county',
+               'primary_zip', 'primary_address1', 'primary_address2']
 
 OUTPUT_HEADERS = ['assembly_district', 'congress_district', 'council_district', 'election_district',
                   'judicial_district', 'municipal_court_district', 'senate_district']
